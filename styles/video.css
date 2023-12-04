@@ -1,0 +1,118 @@
+.thumbnail{
+  width: 100%;
+    /* height: 300px;
+    object-fit: contain;
+    object-position: bottom;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+}
+
+.thumbnail-row{
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.video-stats, .video-author{
+   
+    font-size: 14px;
+    color: rgb(96,96,96) ;
+    margin-bottom: 20px;
+
+  }
+  .video-title{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .video-author{
+   margin-bottom: 4px;
+  }
+  
+  /* .video-preview{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+  } */
+
+  /* .channel-pic {
+    /* display: inline-block;
+    width: 50px; 
+
+  }
+  .video-info{
+     display: inline-block;
+    width: 245px; 
+  } */
+
+  .profile-pic{
+    width: 36px;
+    vertical-align: top;
+    border-radius: 50px;
+  }
+  .thumbnail-row{
+    margin-bottom: 12px;
+    position: relative;
+  }
+
+  .video-info-grid{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .video-grid{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 20px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+     
+  }
+  @media (max-width:750px)  {
+    .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  }
+
+  @media (max-width:751px)  and  (min-width:999px)  {
+    .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  }
+
+  @media (min-width:1000px)  {
+    .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  }
+
+
+  
+
+
+  .video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 500;
+
+    padding: 4px;
+    border-radius: 2px;
+  }
+
+  /* .video-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: ;
+  } */
